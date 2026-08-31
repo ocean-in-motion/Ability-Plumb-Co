@@ -158,8 +158,8 @@ nav.scrolled{ box-shadow: 0 2px 16px rgba(0,0,0,0.18); }
 .water-hero{
   position:relative;
   overflow:hidden;
-  background:#0f1826;
-  min-height:480px;
+  background:linear-gradient(180deg, #0f1826 0%, #172436 100%);
+  min-height:420px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -176,7 +176,7 @@ nav.scrolled{ box-shadow: 0 2px 16px rgba(0,0,0,0.18); }
 .water-hero-scrim{
   position:absolute;
   inset:0;
-  background:linear-gradient(180deg, rgba(15,24,38,0.35) 0%, rgba(15,24,38,0.55) 55%, rgba(15,24,38,0.85) 100%);
+  background:none;
   z-index:1;
 }
 .water-waves{

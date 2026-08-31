@@ -43,7 +43,6 @@
 </div>
 
 <section class="water-hero">
-  <div class="water-hero-photo" style="background-image:url('assets/water-hero.jpg');"></div>
   <div class="water-hero-scrim"></div>
 
   <svg class="water-waves" viewBox="0 0 1400 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,13 +62,13 @@
     </defs>
 
     <path class="wave wave-back" fill="url(#waterGradBack)"
-      d="M0,240 C175,190 350,290 525,250 C700,210 875,300 1050,255 C1225,210 1300,260 1400,240 L1400,500 L0,500 Z"/>
+      d="M-200,240 C-25,190 150,290 325,250 C500,210 675,300 850,255 C1025,210 1200,300 1375,255 C1450,235 1550,245 1600,240 L1600,500 L-200,500 Z"/>
 
     <path class="wave wave-mid" fill="url(#waterGradMid)"
-      d="M0,300 C200,350 400,260 600,300 C800,340 1000,250 1200,295 C1300,315 1350,300 1400,300 L1400,500 L0,500 Z"/>
+      d="M-200,300 C0,350 200,260 400,300 C600,340 800,250 1000,295 C1200,340 1400,250 1600,300 L1600,500 L-200,500 Z"/>
 
     <path class="wave wave-front" fill="url(#waterGradFront)"
-      d="M0,360 C220,320 440,395 660,355 C880,315 1100,390 1320,350 C1350,344 1380,348 1400,352 L1400,500 L0,500 Z"/>
+      d="M-200,360 C20,320 240,395 460,355 C680,315 900,390 1120,350 C1340,310 1450,340 1600,352 L1600,500 L-200,500 Z"/>
   </svg>
 
   <div class="water-hero-content">
@@ -88,14 +87,8 @@
       <p>We evaluate your household's water use and existing plumbing before recommending a system — no upselling equipment you don't need.</p>
     </div>
     <div>
-      <div class="visual-frame">
-        <svg viewBox="0 0 300 220" width="65%">
-          <path d="M 150 30 C 150 60 110 80 110 115 C 110 140 128 158 150 158 C 172 158 190 140 190 115 C 190 80 150 60 150 30 Z" fill="#fff" stroke="#253751" stroke-width="5"/>
-          <path d="M 138 105 C 138 116 148 120 148 130" fill="none" stroke="#879aad" stroke-width="3" stroke-opacity="0.6"/>
-          <line x1="60" y1="190" x2="240" y2="190" stroke="#253751" stroke-width="5"/>
-          <circle cx="90" cy="190" r="7" fill="#253751"/>
-          <circle cx="210" cy="190" r="7" fill="#879aad"/>
-        </svg>
+      <div class="visual-frame" style="padding:0;">
+        <img src="assets/water-hero.jpg" alt="Clean filtered water" style="width:100%;height:100%;object-fit:cover;display:block;">
       </div>
     </div>
   </div>
