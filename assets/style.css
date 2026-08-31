@@ -226,6 +226,10 @@ nav.scrolled{ box-shadow: 0 2px 16px rgba(0,0,0,0.18); }
   display:flex;
   align-items:center;
   justify-content:center;
+  aspect-ratio:1400/640;
+}
+@media (max-width:900px){
+  .hero{ aspect-ratio:auto; min-height:520px; }
 }
 .blueprint-grid{
   position:absolute;
@@ -246,8 +250,9 @@ nav.scrolled{ box-shadow: 0 2px 16px rgba(0,0,0,0.18); }
   height:100%;
   object-fit:cover;
   z-index:1;
-  mask-image: radial-gradient(ellipse 620px 420px at center, transparent 0%, transparent 55%, black 78%);
-  -webkit-mask-image: radial-gradient(ellipse 620px 420px at center, transparent 0%, transparent 55%, black 78%);
+  opacity:0.9;
+  mask-image: radial-gradient(ellipse 480px 320px at center, transparent 0%, transparent 60%, black 100%);
+  -webkit-mask-image: radial-gradient(ellipse 480px 320px at center, transparent 0%, transparent 60%, black 100%);
 }
 .flow-overlay{
   position:absolute;
@@ -256,12 +261,12 @@ nav.scrolled{ box-shadow: 0 2px 16px rgba(0,0,0,0.18); }
   height:100%;
   z-index:1;
   pointer-events:none;
-  mask-image: radial-gradient(ellipse 620px 420px at center, transparent 0%, transparent 55%, black 78%);
-  -webkit-mask-image: radial-gradient(ellipse 620px 420px at center, transparent 0%, transparent 55%, black 78%);
+  mask-image: radial-gradient(ellipse 480px 320px at center, transparent 0%, transparent 60%, black 100%);
+  -webkit-mask-image: radial-gradient(ellipse 480px 320px at center, transparent 0%, transparent 60%, black 100%);
 }
 .flow-line{
   stroke-dasharray: 10 14;
-  opacity:0.75;
+  opacity:0.9;
 }
 .flow-1{ animation: flowMove 2.6s linear infinite; }
 .flow-2{ animation: flowMoveRev 3.1s linear infinite; }
